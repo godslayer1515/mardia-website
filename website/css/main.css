@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/machine.jpg);
+    background-repeat:no-repeat;
+    background-size: 100vw 150vh;
+    background-attachment: fixed;
+    backdrop-filter: 20px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    margin: 2vh 0vh;
+    position: fixed;
+    z-index: 2;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 9vh;
+    padding-top: 10px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 9vh;
+    padding: 2vw;
+}
+#last{
+    padding-right: 10vw;
+}
+.logo{
+    height: 9vh;
+    padding-left: 16vw;
+}
+main{
+    height: 150vw;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.slider{
+    display: flex;
+    margin: auto;
+    padding-top: 17vh;
+    padding-bottom: 15vh;
+    width: 90vw;
+    justify-content: center;
+    z-index: -1;
+}
+.about{
+        background-color: black;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+        margin: auto;
+}
+.card-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+.card{
+    z-index: 1;
+    padding: 0px;
+}
+.clientele{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+.client1{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+#quality-img{
+    width: 95vw;
+}
+.quality{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.whyimg{
+    width: 90vw;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 90vw;
+    margin: auto;
+}
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+    height: 48vh;
+    /* margin-top: 9vh; */
+    background-image: url("/tire.jpg");
+    color: white;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 38vw;
+    background-color: black;
+    color: white;
+    margin: 11vh 31vw;
+}
+.form-content{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.tarea{
+    width: 27vw;
+    height: 4vh;
+}
+.button-1{
+    border-radius: 5px;
+    border-style: dotted;
+}
+iframe{
+    width: 100vw;
+}
+.card-sid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+    margin: 0vh 16vh;
+    flex-wrap: wrap;
+}
+.card-img-sid{
+    height: 26vh;
+    margin: 0vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    background-image: url("/tele.jpg");
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    margin: 14vh 0vh;
+    font-size: smaller;
+    background-image: url("/foot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footp{
+    font-size: 12px;
+}
+.logofoot{
+    margin: 2vh 0vh;
+    border-radius: 85px;
+    margin: 3vh 0vh;
+}
+
+/* responsive
+    margin: 27vh 17vh; contacts
+        width: 70vw; foot p
+*/
